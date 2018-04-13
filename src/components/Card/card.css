@@ -1,0 +1,37 @@
+.card {
+  transform: rotateY(180deg);
+  width: 64px;
+  height: 64px;
+  border: solid 1px #d3cece;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  background-size: 64px 128px;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card img {
+  width: 64px;
+}
+
+.flipped {
+  transform: rotateY(0deg);
+  border: none;
+  background-color: white;
+}
+
+.reverse {
+  transform: rotateY(180deg);
+}
+
+.correct {
+  opacity: .5;
+  cursor: default;
+  transform: rotateY(0deg);
+  border: none;
+  background-color: white;
+}
