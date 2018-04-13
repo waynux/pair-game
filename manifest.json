@@ -1,0 +1,6 @@
+{
+  "short_name": "pair-game",
+  "name": "Redux Pair Game Example",
+  "start_url": "./index.html",
+  "display": "standalone",
+}
